@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Attendance System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Teacher Attendance System</h1>
+    <form id="teacherForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br>
+        <label for="id">Teacher ID:</label>
+        <input type="text" id="id" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br>
+        <label for="lesson">Lesson Number:</label>
+        <input type="text" id="lesson" required><br>
+        <label for="course">Course:</label>
+        <input type="text" id="course" required><br>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" required><br>
+        <button type="submit">Log In</button>
+    </form>
+
+    <button id="startAttendance" disabled>Start Attendance</button>
+    <button id="stopAttendance" disabled>Stop Attendance</button>
+    <script src="script.js"></script>
+</body>
+</html>
